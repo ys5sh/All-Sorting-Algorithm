@@ -21,3 +21,27 @@ Worst case space complexity : O(1) auxiliary
 
 
 ![mceu_61632030011682402256084](https://github.com/ys5sh/All-Sorting-Algorithm/assets/88985349/461a4532-ec8b-40d5-99fd-89456437a57c)
+
+
+#SELECTIVE SORTING
+
+Selection sort is an in-place sorting algorithm. Selection sort works well for small files. It is used
+for sorting the files with very large values and small keys. This is because selection is made
+based on keys and swaps are made only when required.
+
+Advantages
+• Easy to implement
+• In-place sort (requires no additional storage space)
+Disadvantages
+• Doesn’t scale well: O(n
+
+Algorithm
+1. Find the minimum value in the list
+2. Swap it with the value in the current position
+3. Repeat this process for all the elements until the entire array is sorted
+This algorithm is called selection sort since it repeatedly selects the smallest element
+
+![Selection-sort](https://github.com/ys5sh/All-Sorting-Algorithm/assets/88985349/b7b0e633-ba16-49ae-9699-1d71b7161498)
+
+
+
